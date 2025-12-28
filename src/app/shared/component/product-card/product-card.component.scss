@@ -6,16 +6,20 @@
     width: 100%;
     overflow: hidden;
     margin: 20px;
+   
     
 }
-
+.img-fluid{
+    width: 300px;
+    max-width: 100%;
+}
 
 .example-card:hover .info {
     top: 0;
     
 }
 .title-1{
-     max-width: 220px;
+  max-width: 220px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
